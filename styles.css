@@ -4,11 +4,16 @@
   }
   #navbar{
     background-color: orange;
+    position: fixed;
+    width: 100%;
   }
   #welcome{
     background-color: red;
     height: 100vh;
+    display: flex;
+    align-items: center;
   }
+  
   #projects{
     background-color: lightgreen;
   }
