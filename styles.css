@@ -16,6 +16,10 @@
   
   #projects{
     background-color: lightgreen;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.25em;
   }
   #links{
     background-color: yellow;
