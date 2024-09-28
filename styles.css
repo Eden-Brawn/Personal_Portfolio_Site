@@ -6,6 +6,10 @@
     background-color: orange;
     position: fixed;
     width: 100%;
+    
+  }
+  .nav-link{
+    color: black;
   }
   #welcome{
     background-color: red;
@@ -28,6 +32,7 @@
   }
   .project-title{
     color: black;
+    text-align: center;
   }
   #links{
     background-color: yellow;
