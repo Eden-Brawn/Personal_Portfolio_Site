@@ -50,6 +50,7 @@
     width: 100%;
     height: auto;
     object-fit: cover;
+    margin-bottom: 1em;
   }
   .project-title{
     color: white;
@@ -70,6 +71,10 @@
     text-decoration: none;
     color: black;
   }
+  .profile-link:hover{
+    transform: scale(2);
+  }
+
   a{
     text-decoration: none;
   }
