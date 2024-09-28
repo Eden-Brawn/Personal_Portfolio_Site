@@ -18,6 +18,8 @@
     background-color: lightgreen;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 0.5em;
+    padding: 0.5em;
   }
   .project-image{
     width: 100%;
@@ -30,8 +32,8 @@
 
   @media(max-width: 750px){
     #projects{
-    background-color: lightgreen;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
+      background-color: lightgreen;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
