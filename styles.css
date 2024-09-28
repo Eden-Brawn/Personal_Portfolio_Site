@@ -13,14 +13,25 @@
     display: flex;
     align-items: center;
   }
-  
+
   #projects{
     background-color: lightgreen;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 0.25em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .project-image{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
   }
   #links{
     background-color: yellow;
+  }
+
+  @media(max-width: 750px){
+    #projects{
+    background-color: lightgreen;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
   }
