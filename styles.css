@@ -5,7 +5,7 @@
   }
   #navbar{
     background-color: black;
-    background: linear-gradient(179.5deg, black 92%, rgba(255, 255, 255, 0.48));
+    background: linear-gradient(200deg, #3c3e41 0%, #000000 100%);
     position: fixed;
     width: 100%;
     height: 10vh;
@@ -13,8 +13,9 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 2.5em;
-
+    gap: 2.5em; 
+    box-shadow: 0 0.15em 0.625em rgba(0, 0, 0, 0.5), 0 0.525em 2.5em rgba(0, 0, 0, 0.2);
+    z-index: 999;
   }
   .nav-link{
     color: white;
@@ -23,11 +24,13 @@
     
   }
   #welcome{
-    background-color: black;
+    background-color: white;
     height: 100vh;
     display: flex;
     align-items: center;
-    color: white;
+    color: black;
+    position: relative;
+    z-index: 0;
   }
 
   #projects{
@@ -36,6 +39,9 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 0.5em;
     padding: 0.5em;
+    box-shadow: 0 0em 0.625em rgba(0, 0, 0, 0.5), 0 0em 2.5em rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 1;
   }
   .project-image{
     width: 100%;
@@ -47,17 +53,19 @@
     text-align: center;
   }
   #links{
-    background-color: black;
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 2em;
     height: 50vh;
+    position: relative;
+    z-index: 0;
   }
   .profile-link{
     text-decoration: none;
-    color: white;
+    color: black;
   }
   a{
     text-decoration: none;
