@@ -20,14 +20,16 @@
   .nav-link{
     color: white;
   }
-  .nav-link{
-    
+  .nav-link:hover{
+    border-bottom: solid 1px white;
   }
   #welcome{
     background-color: white;
     height: 100vh;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
     color: black;
     position: relative;
     z-index: 0;
@@ -35,6 +37,7 @@
 
   #projects{
     background-color: black;
+    background: linear-gradient(200deg, #3c3e41 0%, #000000 100%);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1em;
