@@ -96,10 +96,40 @@
     text-decoration: none;
   }
 
+  @media(max-width: 1050px){
+    #welcome p{
+    font-size: 24px;
+    }
+    #welcome h1{
+      font-size: 35px;
+    }
+    #welcome{
+      margin-left: 3em;
+      margin-right: 3em;
+    }
+  }
   @media(max-width: 750px){
     #projects{
       display: grid;
       grid-template-columns: repeat(2, 1fr);
+    }
+    #welcome{
+      margin-left: 2em;
+      margin-right: 2em;
+    }
+    #welcome p{
+    font-size: 20px;
+    }
+    #welcome h1{
+      font-size: 28px;
+    }
+  }
+  @media(max-width: 500px){
+    #welcome p{
+    font-size: 16px;
+    }
+    #welcome h1{
+      font-size: 24px;
     }
   }
   @media(max-width: 350px){
@@ -111,4 +141,5 @@
     #links{
       flex-direction: column;
     }
+    
   }
