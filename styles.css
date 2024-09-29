@@ -52,6 +52,9 @@
     object-fit: cover;
     margin-bottom: 1em;
   }
+  .project-image:hover{
+    transform: scale(1.05);
+  }
   .project-title{
     color: white;
     text-align: center;
